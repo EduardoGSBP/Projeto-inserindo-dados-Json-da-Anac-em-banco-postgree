@@ -27,30 +27,9 @@ Projeto simples de ETL (Extração, Transformação e Carga) utilizando Python, 
 
 ---
 
-## 📂 Estrutura sugerida
-
-```
-projeto-anac/
-│
-├── data/
-├── src/
-│   └── carga_postgres.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 
 
-## 🔐 Segurança
-
-A senha do banco não é armazenada no código:
-
-```python
-import os
-password = os.getenv("DB_PASSWORD")
-```
 
 ---
 
